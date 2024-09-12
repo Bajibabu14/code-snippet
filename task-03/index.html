@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample HTML Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- CSS Plugin (e.g., Bootstrap for styling) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Header with Navigation -->
+  <header>
+    <h1>My Website</h1>
+    <nav class="nav">
+      <a class="nav-link" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#careers">careers</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Content Section -->
+  <div class="container main-content">
+    <section id="home">
+      <h2>Welcome to My Website</h2>
+      <p>This is a paragraph which is created with help of paragraph tag</p>
+    </section>
+
+    <!-- Article with image -->
+    <article>
+      <h3>Interesting Article</h3>
+      <p>Dhoni finishes off in style. what a magnificent strike into the crowd! india lifts the world cup after 28 years.The party started in the dressing room!</p>
+      <img src="./shubham-sharan-uerKsDdFTY8-unsplash.jpg" height="500px" width="350px" alt="Placeholder Image" class="img-fluid">
+    </article>
+
+    <!-- Ordered List -->
+    <section>
+      <h4>my fav cricket players</h4>
+      <ol>
+        <li>suresh raina</li>
+        <li>bhuvaneshwar kumar</li>
+        <li>virat </li>
+        <li>jasprit bumrah</li>
+      </ol>
+    </section>
+
+    <!-- Table -->
+    <section>
+      <h4>Web Development Table</h4>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>JavaScript</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Function</td>
+            <td>Structure</td>
+            <td>Styling</td>
+            <td>Interactivity</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Video -->
+    <section>
+      <h4>Watch this video</h4>
+      <video width="320" height="240" controls>
+        <source src="./6394054-uhd_4096_2048_24fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Form with Input and Button -->
+    <section id="contact">
+      <h4>Contact Us</h4>
+      <form action="/submit" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- Sidebar -->
+  <aside class="col-md-4">
+    <h5>Related Links</h5>
+    <ul>
+      <li><a href="#">Linkdin</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Facebook</a></li>
+    </ul>
+  </aside>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 My Website</p>
+  </footer>
+
+  <!-- JavaScript Plugin (e.g., jQuery) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</body>
+</html>
